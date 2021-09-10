@@ -1,0 +1,48 @@
+@font-face {
+    src: url(fonts/Graffitasi\ Demo.ttf);
+    font-family: graffitasi;
+}
+@font-face{
+    src:url(fonts/tag.ttf);
+    font-family: tagto;
+}
+
+@font-face{
+    src:url(fonts/Tag\ Hand\ Graffiti\ Trash_fat.otf);
+    font-family: trashHand;
+}
+
+.pageheader{
+    color: blueviolet;
+    border: 5px outset mediumvioletred;
+    background-color: turquoise;
+    text-align: center;
+    font-size: 50pt;
+    font-family: graffitasi;
+    letter-spacing: 2px;
+}
+
+.navDiv{
+    font-size: 15pt;
+}
+h2{
+    font-family: tagto;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    word-spacing: 4px;
+
+}
+
+.tablehead{
+    font-family: tagto;
+    text-transform: uppercase;
+}
+body{
+font-family: trashHand;
+color: yellow;
+letter-spacing: 2px;
+}
+
+.media{
+    display: flex;
+}
